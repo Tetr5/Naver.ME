@@ -27,3 +27,7 @@ async function shortevent() {
     navigator.clipboard.writeText(shortrURL);
     alert(shortrURL + " 가 복사되었습니다!")
 }
+
+async function repo() {
+    window.open('https://github.com/Gtwo2')
+}
