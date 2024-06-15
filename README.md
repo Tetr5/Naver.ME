@@ -4,9 +4,10 @@ url을 naver.me 형식으로 단축해줍니다.
 # Example
 https://naver.me/xwW4y4qd
 <br>
-# Api
-```https://shortnaverlink.vercel.app/shorten?url=단축하고 싶은 Url```
-<br>
+```js
+await fetch(`https://shortnaverlink.vercel.app/shorten?url={단축하고 싶은 Url}`)
+```
+
 # Mode
 본 사이트는 기기테마를 지원합니다.<br><br>
 다크모드,라이트모드로 바꿔주는 css코드<br>
