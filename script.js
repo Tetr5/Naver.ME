@@ -29,5 +29,5 @@ async function shortevent() {
 }
 
 async function repo() {
-    window.open('https://github.com/Gtwo2')
+    window.open('https://github.com/tetr5')
 }
